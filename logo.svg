@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Swagat Baker's logo">
+  <defs>
+    <radialGradient id="bg" cx="45%" cy="35%" r="70%"><stop offset="0" stop-color="#6b3218"/><stop offset="1" stop-color="#260d05"/></radialGradient>
+    <linearGradient id="g" x1="0" x2="1"><stop stop-color="#f8ddb0"/><stop offset="1" stop-color="#c88b3d"/></linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="115" fill="url(#bg)" stroke="#d9a45a" stroke-width="5"/>
+  <path d="M62 80c-15-10-22-28-18-45 12 13 22 27 24 45M54 91c-18-1-34-12-42-27 18 4 34 12 44 25M178 80c15-10 22-28 18-45-12 13-22 27-24 45M186 91c18-1 34-12 42-27-18 4-34 12-44 25" fill="none" stroke="#d9a45a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M120 47c-18 0-30 10-32 25-12 2-20 10-20 20 0 13 10 20 24 20h56c14 0 24-7 24-20 0-10-8-18-20-20-2-15-14-25-32-25z" fill="#fff5e5"/>
+  <rect x="88" y="106" width="64" height="13" rx="5" fill="#f0c98a"/>
+  <text x="120" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="31" font-weight="700" fill="#fff4df" letter-spacing="2">SWAGAT</text>
+  <text x="120" y="181" text-anchor="middle" font-family="cursive" font-size="31" font-style="italic" fill="url(#g)">Baker's</text>
+  <text x="120" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#efd4ad" letter-spacing="2">FRESHLY BAKED</text>
+</svg>
