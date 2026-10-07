@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#2a130b">
+  <title>Swagat Baker's | Freshly Baked Every Day</title>
+  <meta name="description" content="Swagat Baker's in Charkop, Kandivali — pure veg cakes, breads, khari, toast, pav, pizza bases, snacks and custom celebration cakes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement"><div class="announcement-inner">
+    <span><i class="dot"></i>100% PURE VEG</span>
+    <span>Freshly baked every day • Charkop Sector 3, Kandivali (W)</span>
+    <a href="https://www.instagram.com/swagat.bakers/" target="_blank" rel="noopener">@swagat.bakers ↗</a>
+  </div></div>
+
+  <header class="nav-shell" id="top"><div class="nav-wrap">
+    <a class="brand" href="#home" aria-label="Swagat Baker's home">
+      <img src="logo.svg" alt="Swagat Baker's logo">
+      <div class="brand-copy"><b>Swagat Baker's</b><span>Freshly baked & tasty</span></div>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a><a href="#menu">Menu</a><a href="#cakes">Custom Cakes</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="phone-pill" href="tel:8291054645"><span>Call</span><b>8291054645</b></a>
+      <a class="wa-pill" href="https://wa.me/918291054645?text=Hi%20Swagat%20Baker's%2C%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div></header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow glow-a"></div><div class="hero-glow glow-b"></div>
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span>Since 2001</span><span>•</span><span>Pure Veg Bakery</span></div>
+          <p class="hero-script">Freshly Baked</p>
+          <h1>Just for <em>You.</em></h1>
+          <p class="hero-lead">Warm breads, crisp khari, indulgent desserts and celebration cakes — prepared fresh for your everyday cravings and special moments.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#menu">Explore the menu <span>→</span></a>
+            <a class="btn btn-ghost" href="https://wa.me/918291054645?text=Hi%20Swagat%20Baker's%2C%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+          </div>
+          <div class="hero-trust">
+            <div><b>Fresh daily</b><span>Baked in small batches</span></div>
+            <div><b>100% Pure Veg</b><span>Thoughtful ingredients</span></div>
+            <div><b>Custom orders</b><span>Birthdays & celebrations</span></div>
+          </div>
+        </div>
+        <div class="hero-stage reveal">
+          <div class="hero-photo"><img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=1600&q=90" alt="Fresh bakery desserts" fetchpriority="high" decoding="async"></div>
+          <div class="floating-card fc-top"><span class="mini-icon">✦</span><div><small>Fresh today</small><b>Muffins & Brownies</b></div></div>
+          <div class="floating-card fc-bottom"><span class="mini-icon">♡</span><div><small>Made with</small><b>Love, every batch</b></div></div>
+          <div class="stamp"><span>BAKED</span><strong>FRESH</strong><span>DAILY</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom">
+        <div class="location-line"><span>⌖</span><p>Charkop Rakesh CHS, Shop No. 1, Plot No. 215, Sector No. 3, Charkop, Kandivali (W), Mumbai - 400067</p></div>
+        <a href="#contact">Get directions →</a>
+      </div>
+    </section>
+
+    <section class="reel-strip" id="reviews" aria-label="Customer feedback videos">
+      <div class="reel-intro">
+        <span class="kicker">CUSTOMER MOMENTS</span>
+        <h2>Real smiles.<br><em>Real sweetness.</em></h2>
+        <p>Hover a video to preview. Click to continue on Instagram.</p>
+        <a href="https://www.instagram.com/swagat.bakers/" target="_blank" rel="noopener">See more on Instagram ↗</a>
+      </div>
+      <div class="reel-window"><div class="reel-track" id="feedbackTrack"></div></div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-head reveal">
+        <div><span class="kicker dark">OUR MENU</span><h2>Something delicious<br><em>for every mood.</em></h2></div>
+        <p>Choose a category to explore the full menu. Tap any item to start a WhatsApp inquiry instantly.</p>
+      </div>
+      <div class="category-scroller reveal" id="categoryCards"></div>
+      <div class="menu-explorer reveal">
+        <div class="menu-visual">
+          <img id="categoryImage" src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1600&q=90" alt="Bakery category" decoding="async">
+          <div class="menu-visual-overlay"><span id="categoryOverline">Fresh every day</span><h3 id="categoryHeroTitle">Khari</h3><p id="categoryHeroText">Light, flaky and made for tea-time cravings.</p></div>
+        </div>
+        <div class="menu-panel">
+          <div class="menu-panel-top"><div><span class="kicker dark" id="categoryKicker">MENU CATEGORY</span><h3 id="categoryTitle">Khari</h3></div><span class="item-count" id="itemCount">5 items</span></div>
+          <div class="menu-items" id="menuItems"></div>
+          <div class="menu-note">Need bulk quantities for hotels, cafés, caterers or offices? <a href="https://wa.me/918291054645?text=Hi%20Swagat%20Baker's%2C%20I%20want%20to%20inquire%20about%20a%20bulk%20order." target="_blank" rel="noopener">Ask about bulk orders →</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cake-section" id="cakes">
+      <div class="cake-copy reveal">
+        <span class="kicker">CUSTOM CAKES</span>
+        <p class="hero-script small">Made for your moment</p>
+        <h2>Your celebration deserves<br><em>its own flavour.</em></h2>
+        <p>Birthday, anniversary, kids theme, engagement or a simple surprise — tell us the idea and we’ll help you shape the cake.</p>
+        <div class="cake-tags"><span>Birthdays</span><span>Anniversaries</span><span>Theme Cakes</span><span>Photo Cakes</span></div>
+        <a class="btn btn-gold" href="https://wa.me/918291054645?text=Hi%20Swagat%20Baker's%2C%20I%20want%20to%20order%20a%20custom%20cake." target="_blank" rel="noopener">Plan a custom cake <span>→</span></a>
+      </div>
+      <div class="cake-gallery reveal" id="cakeGallery"></div>
+    </section>
+
+    <section class="bread-story" id="about">
+      <div class="story-image reveal"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1600&q=90" alt="Fresh bakery breads"></div>
+      <div class="story-copy reveal">
+        <span class="kicker dark">BAKED WITH PASSION</span>
+        <h2>From breakfast staples<br>to evening cravings.</h2>
+        <p>Swagat Baker's brings together crisp khari, toast, sandwich bread, loaves, pav, pizza bases, savoury snacks and sweet favourites — all in one neighbourhood bakery.</p>
+        <div class="story-grid">
+          <div><b>Freshly Baked Daily</b><span>Quality and freshness first</span></div>
+          <div><b>Premium Ingredients</b><span>Rich taste, better texture</span></div>
+          <div><b>Hygienic Preparation</b><span>Care in every batch</span></div>
+          <div><b>Bulk Orders</b><span>Hotels, cafés, caterers & retail</span></div>
+        </div>
+        <a class="text-link" href="#menu">Explore the bakery menu →</a>
+      </div>
+    </section>
+
+    <section class="why-section">
+      <div class="why-copy reveal"><span class="kicker">WHY SWAGAT BAKER'S?</span><h2>Good food.<br><em>Good mood.</em></h2></div>
+      <div class="why-grid reveal">
+        <article><span>01</span><b>Fresh every day</b><p>Made in regular fresh batches for better taste and texture.</p></article>
+        <article><span>02</span><b>100% Pure Veg</b><p>A pure vegetarian bakery for everyday and celebration orders.</p></article>
+        <article><span>03</span><b>Made for every moment</b><p>From breakfast breads to birthdays and custom celebrations.</p></article>
+        <article><span>04</span><b>Local & approachable</b><p>Direct call and WhatsApp ordering from Charkop, Kandivali.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-card visit reveal">
+        <span class="kicker dark">VISIT US</span>
+        <h2>Your neighbourhood bakery<br>in Charkop.</h2>
+        <p>Charkop Rakesh CHS, Shop No. 1,<br>Plot No. 215, Sector No. 3,<br>Charkop, Kandivali (W), Mumbai - 400067</p>
+        <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&query=Charkop+Sector+3+Kandivali+West+Mumbai+400067" target="_blank" rel="noopener">Open in Maps →</a>
+      </div>
+      <div class="contact-card contact-details reveal">
+        <img src="logo.svg" alt="Swagat Baker's">
+        <div><small>Call / WhatsApp</small><a href="tel:8291054645"><b>Tushar</b> 8291054645</a><a href="tel:9967239454"><b>Vijay</b> 9967239454</a></div>
+        <a class="wa-big" href="https://wa.me/918291054645?text=Hi%20Swagat%20Baker's%2C%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+      </div>
+      <div class="contact-card social reveal">
+        <span class="kicker dark">FOLLOW THE FRESHNESS</span>
+        <h3>See cakes, customer moments and new arrivals.</h3>
+        <a href="https://www.instagram.com/swagat.bakers/" target="_blank" rel="noopener"><span>Instagram</span><b>@swagat.bakers ↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img src="logo.svg" alt=""><div><b>Swagat Baker's</b><span>Freshly baked every day</span></div></div>
+    <nav><a href="#home">Home</a><a href="#menu">Menu</a><a href="#cakes">Custom Cakes</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></nav>
+    <p>Made with ♥ for sweet moments.</p>
+  </footer>
+
+  <div class="mobile-order-bar"><a href="tel:8291054645">Call</a><a href="#menu">Menu</a><a class="wa" href="https://wa.me/918291054645" target="_blank" rel="noopener">WhatsApp</a></div>
+  <script src="app.js"></script>
+</body>
+</html>
