@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: {name: swagat-bakers}
+spec:
+  replicas: 2
+  selector: {matchLabels: {app: swagat-bakers}}
+  template:
+    metadata: {labels: {app: swagat-bakers}}
+    spec:
+      containers:
+        - name: web
+          image: YOUR_DOCKERHUB_USERNAME/swagat-bakers:latest
+          ports: [{containerPort: 80}]
+          readinessProbe: {httpGet: {path: /health, port: 80}, initialDelaySeconds: 3, periodSeconds: 5}
+          livenessProbe: {httpGet: {path: /health, port: 80}, initialDelaySeconds: 10, periodSeconds: 10}
+          resources:
+            requests: {cpu: 50m, memory: 32Mi}
+            limits: {cpu: 200m, memory: 128Mi}
+---
+apiVersion: v1
+kind: Service
+metadata: {name: swagat-bakers}
+spec:
+  selector: {app: swagat-bakers}
+  ports: [{port: 80, targetPort: 80}]
