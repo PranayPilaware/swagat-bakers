@@ -1,0 +1,12 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: swagat-bakers
+spec:
+  rules:
+    - host: swagat.local
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend: {service: {name: swagat-bakers, port: {number: 80}}}
