@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: swagat-bakers
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    autoDeploy: true
